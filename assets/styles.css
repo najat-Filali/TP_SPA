@@ -1,6 +1,9 @@
-#pied{
-    background: black;
-    color: white;
+section{
+    margin: 10px;
+    padding: 10px;
+}
+h1{
+    text-transform: uppercase;
 }
 
 ul{
@@ -11,11 +14,15 @@ ul{
     padding-bottom:56.25%;
     position:relative;
     height:0;
-    }
-    .map-container-6 iframe{
+}
+.map-container-6 iframe{
     left:0;
     top:0;
     height:100%;
     width:100%;
     position:absolute;
-    }
+}
+#pied{
+    background: black;
+    color: white;
+}
