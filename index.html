@@ -6,35 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SPA bootS</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
     <div class="container-fluid">
         <div class="row">
-            <header class="col-12">
+            <header class="col-12 fixed-top">
                 <div class="row">
-                    <div id="logo" class="col-sm-9">
+                    <div id="logo" class="col-sm-7">
                         <img src="./assets/img/logo1.png"
                         onerror="this.src='./assets/img/no-image.jpg'"
                         alt="logo">
                     </div>
-                    <nav class="col-sm-3">
+                    <nav class="col-sm-5">
                         <ul>
-                            <li><a href="#">Accueil</a></li>
-                            <li><a href="#presentation">Présentation</a></li>
-                            <li><a href="#team">Notre squad</a></li>
-                            <li><a href="#services">Services</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <button class="btn btn-primary"><a href="#">Accueil</a></button>
+                            <button class="btn btn-primary"><a href="#services">Services</a></button>
+                            <button class="btn btn-primary"><a href="#team">Squad</a></button>
+                            <button class="btn btn-primary"><a href="#portfolio">Portfolio</a></button>
+                            <button class="btn btn-primary"><a href="#contact">Contacter</a></button>
                         </ul>
                     </nav>
                 </div>
             </header>
         </div>
+        
         <div class="row">
             <main class="col-sm-12 offset-md-1 col-md-10">
                 <section id="carousel" class="row">
-                    <h1 class="col"></h1>
-                    <p class="col" >
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -55,47 +54,100 @@
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
+                    </div>
+                    
+                </section> 
+        
+                <section id="services" class="row ">
+                    <h1 class="col-12 text-center">NOS SERVICES</h1>
+                    <div id="services" class="row">
+                        <div class="col-md-4">
+                            <div id="enquete" class="thumbnail">
+                                <div id="imge" >
+                                    <img src="/assets/img/services/loupe.jpg" alt="enquete" style="width:20%">
+                                </div>
+                                <h3>Nos enquêtes</h3>
+                                <div class="caption">
+                                    <p>Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Ipsa, Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, eius.
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Laborum voluptatibus mollitia earum atque beatae quaerat repellendus inventore, 
+                                        corporis pariatur illo exercitationem soluta. 
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                    </p>
+                        <div class="col-md-4">
+                            <div id="filature" class="thumbnail">
+                                <div id="imgf">
+                                    <img src="/assets/img/services/filature.jpg" alt="filature" style="width:20%"><br>
+                                </div>
+                                <h3>Nos filatures</h3>
+                                <div class="caption">
+                                    <p>Lorem ipsum Lorem ipsum dolor sit amet consectetur, 
+                                        adipisicing elit. Ipsa, ipsam! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Illo vero sequi eligendi nisi dolores corporis ex, 
+                                        cupiditate minus, 
+                                        hic unde assumenda suscipit itaque voluptates saepe illum debitis ut adipisci! Illum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="recherche" class="thumbnail">
+                                <div id="imgr">
+                                    <img src="/assets/img/services/recherche.jpg" alt="recherche" style="width:20%"><br>
+                                </div>
+                                <h3>Nos recherches</h3>
+                                <div class="caption">
+                                    <p>Lorem ipsum Lorem ipsum dolor sit amet consectetur, 
+                                        adipisicing elit. Ipsa, ipsam! Lorem ipsum dolor, 
+                                        it amet consectetur adipisicing elit. Quasi, quae?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
-                <section id="presentation" class="row">
-                    <h1 class="col-md-6 text-center text-md-left">QUI SOMMES NOUS ? </h1>
-                    <p class="col-md-6" >lorem Lorem ipsum, 
-                        dolor sit amet consectetur adipisicing elit.
-                        Repudiandae, velit accusamus perferendis ratione nostrum modi ducimus voluptatum ea possimus nisi quia veniam eum explicabo et voluptatibus aspernatur beatae inventore minus.
-                        Aliquam quisquam rem cum molestias quis omnis atque expedita nihil nisi tempora nostrum ab animi, quia autem architecto, quas fugiat quo illum consequuntur, facere hic saepe nesciunt adipisci!
-                        Molestias, nesciunt.</p>
-                </section>
+
                 <section id="team" class="row ">
                     <h1 class="col-12 text-center">OUR TEAM</h1>
-                    <table class="col text-center">
-                        <th>
-                            <tr>
-                            <th><img src="assets/img/pers1.jpg" alt=""></th>
-                            <th><img src="assets/img/pers2.jpg" alt=""></th>
-                            <th><img src="assets/img/pers3.jpg" alt=""></th>
-                            </tr>
-                        </th>
-                        <tr>
-                            <td >RIRI</td>
-                            <td >FIFI</td>
-                            <td >LOULOU</td>
-                        </tr>
-                        <tr>
-                            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                                Dolorem itaque accusantium repellat maiores doloribus qui 
-                                </td>
-                            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                                Dolorem itaque accusantium repellat maiores doloribus qui 
-                                </td>
-                            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                                Dolorem itaque accusantium repellat maiores doloribus qui 
-                                </td>
-                        </tr>
-                    </table>
+                    <div id="team" class="row">
+                        <div class="col-md-4">
+                            <div id="riri" class="thumbnail">
+                                <img src="/assets/img/team/riri.jpg" alt="riri" style="width:100%">
+                                <h3>RIRI</h3>
+                                <div class="caption">
+                                <p>Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Ipsa, ipsam!.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="fifi" class="thumbnail">
+                                <img src="/assets/img/team/fifi.jpg" alt="Fifi" style="width:100%">
+                                <h3>FIFI</h3>
+                                <div class="caption">
+                                <p>Lorem ipsum Lorem ipsum dolor sit amet consectetur, 
+                                    adipisicing elit. Ipsa, ipsam!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="loulou" class="thumbnail">
+                                <img src="/assets/img/team/loulou.jpg" alt="loulou" style="width:100%">
+                                <h3>LOULOU</h3>
+                                <div class="caption">
+                                <p>Lorem ipsum Lorem ipsum dolor sit amet consectetur, 
+                                    adipisicing elit. Ipsa, ipsam! </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
+
                 <section id="portfolio" class="row ">
-                    <div class="col text-center">
+                    <div class="col-md-6 text-center ">
                         <h1>PORTFOLIO</h1>
                         <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos modi natus corporis, 
                             iusto officiis vel cumque atque incidunt iste numquam, nam, 
@@ -106,47 +158,14 @@
                             corporis non quia laudantium! Dicta, cupiditate?
                         </p>
                     </div>
-                    <div class="col text-center">
-                        <img src="assets/img/portfolio.jpg" alt="portfolio">
+                    <div class="col-md-6" style="align-content: center;">
+                        <img src="assets/img/portfolio.jpg" alt="portfolio"  id="photoPort" width="100%" >
                     </div>
                         
                 </section>
-                <section id="services" class="row">
-                    <h1 class="col-12 text-center" >Nos prestations</h1>
-                    <table class="table table-hover table-dark">
-                        <thead>
-                            <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Nos salades</th>
-                            <th scope="col">Nos boissons</th>
-                            <th scope="col">Nos oignons</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                              <tr>
-                                <td scope="row">1</td>
-                                <td>Du Chef</td>
-                                <td>Vodka</td>
-                                <td>vert</td>
-                            </tr>
-                            <tr>
-                                <td scope="row">2</td>
-                                <td>Nicoise</td>
-                                <td>Eau</td>
-                                <td>jaune</td>
-                            </tr>
-                           <tr>
-                               <td>3</td>
-                               <td>cesar</td>
-                               <td>biere</td>
-                               <td>rouge</td>
-                           </tr>
-                        </tbody>
-                    </table>
-                   
-                </section>
-                <!--Section: Contact v.1-->
-                <section class="section pb-5">
+               
+                <!--Section: Contact -->
+                <section id="contact" class="section pb-5">
                     <h1 class="col-12 text-center">Nous contacter</h1>
                     <div class="row">
                     <!--Grid column-->
@@ -161,12 +180,12 @@
                         <div class="row text-center">
                         <div class="col-md-4">
                             <a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
-                            <p>San Francisco, CA 94126</p>
-                            <p>United States</p>
+                            <p>Montpellier, CA 94126</p>
+                            <p>FRANCE</p>
                         </div>
                         <div class="col-md-4">
                             <a class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
-                            <p>+ 01 234 567 89</p>
+                            <p>+ 0033 12 55 45 47</p>
                             <p>Mon - Fri, 8:00-22:00</p>
                         </div>
                         <div class="col-md-4">
@@ -208,7 +227,7 @@
                                 <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
                             </div>
                             <div class="text-center mt-4">
-                                <button class="btn btn-light-blue">Submit</button>
+                                <button class="btn btn-light-blue">Envoyer</button>
                             </div>
                             </div>
                         </form>
@@ -217,9 +236,10 @@
                         <!--Grid column-->
                     </div>
                 </section>
-                <!--Section: Contact v.1-->
+                <!--Section: Contact -->
             </main>
         </div>
+
         <div class="row">
             <footer class="col-12 text-center" id="pied">
                 <div class="row">
@@ -227,6 +247,7 @@
                     <div class ="col-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit officiis numquam excepturi, ipsam ipsa, mollitia quam adipisci debitis iusto nihil dignissimos voluptas temporibus aperiam optio maiores obcaecati. Aut, dolorem beatae!</div>
                     <div class ="col-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit officiis numquam excepturi, ipsam ipsa, mollitia quam adipisci debitis iusto nihil dignissimos voluptas temporibus aperiam optio maiores obcaecati. Aut, dolorem beatae!</div>
                 </div>
+                <br>
                 <p>&copy; Neije Najat -2019</p>
             </footer>
         </div>
