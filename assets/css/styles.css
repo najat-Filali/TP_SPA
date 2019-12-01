@@ -1,0 +1,96 @@
+:root{
+    font-family: sans-serif;
+}
+
+header{ 
+    position: relative;
+    height: 250px;
+}
+#logo img{
+    padding-left: 100px;
+}
+
+nav{
+    float: right;
+    padding-top: 50px;
+}
+nav a {
+    display:block;
+    color: aliceblue;
+}
+nav ul{
+    display: inline;
+    list-style: none;
+}
+
+section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border : 1px solid rgb(175, 175, 175);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#carouselExampleControls {
+    margin: auto;
+}
+
+h1{
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+h3 {
+    text-align: center;
+    color: gray;
+}
+
+#presentation > h1 {
+    text-align: center;
+    padding-top: 2%;
+}
+#imge img{
+    margin: auto;
+    border-radius: 50%;
+    background: red;
+}
+#imgr img{
+    border-radius: 50%;
+}
+#imgf img{
+    border-radius: 50%;
+}
+#riri, #fifi, #loulou{
+    border : 5px solid black;
+    border-style: outset;
+    margin: 4px;
+    padding: 20px;
+}
+
+#photoPort{
+    margin: auto;
+}
+
+.map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+#pied{
+    background: black;
+    color: white;
+}
+
+footer>p {
+    color: grey;
+}
